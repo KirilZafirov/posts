@@ -1,0 +1,17 @@
+<h1>{{post.title}}</h1>
+<p>
+  {{post.description}}
+</p>
+{{post.likes}}
+<button (click)="likePost()">Like Button</button>
+
+<app-post-comment (postComment)="postComment($event)">
+
+</app-post-comment>
+
+<app-post-comments [postId]="post.id">
+
+</app-post-comments>
+
+
+

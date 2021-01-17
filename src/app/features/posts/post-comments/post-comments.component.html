@@ -1,0 +1,15 @@
+
+
+<ng-container *ngIf="postComments$ | async as postComments else loading">
+  <ng-container *ngFor="let post of postComments">
+     <p>
+      {{post.body}}
+
+      {{post.commentedOn | date:'medium'}}
+     </p>
+  </ng-container>
+</ng-container>
+
+<ng-template #loading>
+  ...Loading
+</ng-template>
