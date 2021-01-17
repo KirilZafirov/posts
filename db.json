@@ -4,12 +4,14 @@
       "id": 1,
       "title": "Great News",
       "likes": 10,
+      "likedBy": 1,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit rutrum orci id aliquam. Nunc maximus vulputate viverra. Duis sed mauris posuere, venenatis nisl quis, dapibus tellus. Quisque vulputate justo nibh, id congue ligula fringilla vitae. Curabitur augue leo, egestas et purus a, congue elementum risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam erat volutpat. Aliquam egestas urna id laoreet elementum."
     },
     {
       "id": 2,
       "title": "Another Post",
       "likes": 9,
+      "likedBy": 1,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit rutrum orci id aliquam. Nunc maximus vulputate viverra. Duis sed mauris posuere, venenatis nisl quis, dapibus tellus. Quisque vulputate justo nibh, id congue ligula fringilla vitae. Curabitur augue leo, egestas et purus a, congue elementum risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam erat volutpat. Aliquam egestas urna id laoreet elementum."
     }
   ],
@@ -18,127 +20,155 @@
       "id": 1,
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit rutrum orci id aliquam. Nunc maximus vulputate viverra. Duis sed mauris posuere, venenatis nisl quis, dapibus tellus. ",
       "postId": 1,
-      "commentedOn": null
+      "commentedOn": null,
+      "commentedBy": 1
     },
     {
       "id": 2,
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit rutrum orci id aliquam. Nunc maximus vulputate viverra. Duis sed mauris posuere, venenatis nisl quis, dapibus tellus. ",
       "postId": 1,
-      "commentedOn": null
+      "commentedOn": null,
+      "commentedBy": 1
     },
     {
       "id": 3,
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit rutrum orci id aliquam. Nunc maximus vulputate viverra. Duis sed mauris posuere, venenatis nisl quis, dapibus tellus. ",
       "postId": 1,
-      "commentedOn": null
+      "commentedOn": null,
+      "commentedBy": 1
     },
     {
       "id": 1,
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit rutrum orci id aliquam. Nunc maximus vulputate viverra. Duis sed mauris posuere, venenatis nisl quis, dapibus tellus. ",
       "postId": 2,
-      "commentedOn": null
+      "commentedOn": null,
+      "commentedBy": 1
     },
     {
       "id": 2,
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit rutrum orci id aliquam. Nunc maximus vulputate viverra. Duis sed mauris posuere, venenatis nisl quis, dapibus tellus. ",
       "postId": 2,
-      "commentedOn": null
+      "commentedOn": null,
+      "commentedBy": 1
     },
     {
       "id": 3,
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit rutrum orci id aliquam. Nunc maximus vulputate viverra. Duis sed mauris posuere, venenatis nisl quis, dapibus tellus. ",
       "postId": 2,
-      "commentedOn": null
+      "commentedOn": null,
+      "commentedBy": 1
     },
     {
       "id": "11f9d18e-d44b-494b-a34e-849bc9ef4c2e",
       "body": "dfhgfdhfdghdf",
       "postId": 1,
-      "commentedOn": "2021-01-17T17:51:03.570Z"
+      "commentedOn": "2021-01-17T17:51:03.570Z",
+      "commentedBy": 1
     },
     {
       "id": "602411c9-7ff7-46e8-aa85-6413129bbe17",
       "body": "dfhfgdhfgdh",
       "postId": 2,
-      "commentedOn": "2021-01-17T17:51:05.919Z"
+      "commentedOn": "2021-01-17T17:51:05.919Z",
+      "commentedBy": 1
     },
     {
       "id": "633480cd-be49-4ea7-85e3-595d7c63e8eb",
       "body": null,
       "postId": 1,
-      "commentedOn": "2021-01-17T17:51:11.732Z"
+      "commentedOn": "2021-01-17T17:51:11.732Z",
+      "commentedBy": 1
     },
     {
       "id": "3ebfab75-6016-404e-a2c6-d2a6f41401cb",
       "body": null,
       "postId": 1,
-      "commentedOn": "2021-01-17T17:51:11.870Z"
+      "commentedOn": "2021-01-17T17:51:11.870Z",
+      "commentedBy": 1
     },
     {
       "id": "75aa0a85-c2b9-4e01-8510-6d27f4b46134",
       "body": "asdadasd",
       "postId": 1,
-      "commentedOn": "2021-01-17T17:51:57.225Z"
+      "commentedOn": "2021-01-17T17:51:57.225Z",
+      "commentedBy": 1
     },
     {
       "id": "535284bd-ec49-4193-b2ed-08612d86d8bf",
       "body": null,
       "postId": 2,
-      "commentedOn": "2021-01-17T17:51:58.444Z"
+      "commentedOn": "2021-01-17T17:51:58.444Z",
+      "commentedBy": 1
     },
     {
       "id": "197e343b-0aa0-453c-bf96-7f413cabe846",
       "body": null,
       "postId": 2,
-      "commentedOn": "2021-01-17T17:51:58.700Z"
+      "commentedOn": "2021-01-17T17:51:58.700Z",
+      "commentedBy": 1
     },
     {
       "id": "2ce02798-c08c-421a-bd09-641c6a316bdb",
       "body": null,
       "postId": 2,
-      "commentedOn": "2021-01-17T17:51:58.860Z"
+      "commentedOn": "2021-01-17T17:51:58.860Z",
+      "commentedBy": 1
     },
     {
       "id": "b20f957b-22d3-4790-b2ba-c11eec38f1e3",
       "body": null,
       "postId": 2,
-      "commentedOn": "2021-01-17T17:51:58.962Z"
+      "commentedOn": "2021-01-17T17:51:58.962Z",
+      "commentedBy": 1
     },
     {
       "id": "3322b0b3-98b7-4c32-bc8b-7b9d53ad4262",
       "body": null,
       "postId": 2,
-      "commentedOn": "2021-01-17T17:52:17.106Z"
+      "commentedOn": "2021-01-17T17:52:17.106Z",
+      "commentedBy": 1
     },
     {
       "id": "7380c6ae-fe64-460d-8d0c-c4aa3e089fc9",
       "body": null,
       "postId": 2,
-      "commentedOn": "2021-01-17T17:52:18.165Z"
+      "commentedOn": "2021-01-17T17:52:18.165Z",
+      "commentedBy": 1
     },
     {
       "id": "5c88c0c2-b512-4b4a-ac42-0cb603286679",
       "body": null,
       "postId": 2,
-      "commentedOn": "2021-01-17T17:52:18.421Z"
+      "commentedOn": "2021-01-17T17:52:18.421Z",
+      "commentedBy": 1
     },
     {
       "id": "bf4655f5-a4ce-4c92-8a0a-aca6aeadcac6",
       "body": null,
       "postId": 2,
-      "commentedOn": "2021-01-17T17:52:18.559Z"
+      "commentedOn": "2021-01-17T17:52:18.559Z",
+      "commentedBy": 1
     },
     {
       "id": "2f3972f9-d73c-4308-88c5-7858b235f4d9",
       "body": null,
       "postId": 2,
-      "commentedOn": "2021-01-17T17:52:18.701Z"
+      "commentedOn": "2021-01-17T17:52:18.701Z",
+      "commentedBy": 1
     },
     {
       "id": "aefafc11-9180-4508-accd-6d27a9dbfdc6",
       "body": null,
       "postId": 2,
-      "commentedOn": "2021-01-17T17:52:18.828Z"
+      "commentedOn": "2021-01-17T17:52:18.828Z",
+      "commentedBy": 1
+    },
+    {
+      "id": "c694f0be-98d6-4afa-a557-b936e46e4dc1",
+      "body": " sdfs",
+      "postId": 1,
+      "commentedOn": "2021-01-17T18:39:26.807Z",
+      "commentedBy": 1
     }
   ],
   "profile": {

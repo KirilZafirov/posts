@@ -1,0 +1,12 @@
+
+<ng-container *ngIf="userComments$ | async as userComments else loading">
+  <ng-container *ngFor="let comment of userComments">
+    <app-comment-with-title [comment]="comment">
+
+    </app-comment-with-title>
+  </ng-container>
+</ng-container>
+
+<ng-template #loading>
+  ...Loading
+</ng-template>

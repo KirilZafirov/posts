@@ -1,4 +1,7 @@
 <button (click)="getNewPosts()"> Has New Post</button>
+<p>Total Comments Made by user{{totalComments$ | async }}</p>
+<p>Total Likes Made by user{{userTotalLikes$ | async }}</p>
+
 <ng-container *ngIf="posts$ | async as posts else loading">
   <ng-container *ngFor="let post of posts">
      <app-post [post]="post"

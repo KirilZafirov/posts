@@ -3,4 +3,5 @@ export interface PostComment {
   body: string;
   postId: number;
   commentedOn: Date;
+  commentedBy: number;
 }

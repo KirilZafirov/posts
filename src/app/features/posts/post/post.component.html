@@ -3,7 +3,7 @@
   {{post.description}}
 </p>
 {{post.likes}}
-<button (click)="likePost()">Like Button</button>
+<button (click)="likePost()" [disabled]="currentUserId === post.likedBy">Like Button</button>
 
 <app-post-comment (postComment)="postComment($event)">
 

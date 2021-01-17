@@ -1,3 +1,4 @@
+import { UserService } from 'src/app/core/services.ts/user.service';
 
 
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
@@ -15,9 +16,11 @@ export class PostComponent implements OnInit {
   @Output() addNewComment: EventEmitter<string> = new EventEmitter();
 
 
-  constructor() { }
+  constructor(private user: UserService) { }
 
+  currentUserId: number;
   ngOnInit() {
+    this.currentUserId = this.user.currentUser.id;
   }
 
   likePost() {

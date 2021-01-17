@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { EnsureModuleLoadedOnceGuard } from './ensure-module-loaded-once.guard';
 import { ApiService } from './services.ts/api.service';
+import { UserService } from './services.ts/user.service';
 
 @NgModule({
   imports: [CommonModule, HttpClientModule],
   exports: [HttpClientModule],
   declarations: [],
   providers: [
-    ApiService
+    ApiService,
+    UserService
   ],
 })
 export class CoreModule extends EnsureModuleLoadedOnceGuard {

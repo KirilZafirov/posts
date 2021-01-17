@@ -14,8 +14,15 @@ const routerOptions: ExtraOptions = {
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'posts',
     component: PostsComponent
+  },
+  {
+    path: 'comments',
+    loadChildren: () =>
+      import('./features/comments/comments.module').then(
+        (m) => m.CommentsModule
+      ),
   },
   {
     path: '**',
