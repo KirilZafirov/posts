@@ -14,8 +14,16 @@ const routerOptions: ExtraOptions = {
 
 const routes: Routes = [
   {
+    path: '',
+    redirectTo: '/posts',
+    pathMatch: 'full',
+  },
+  {
     path: 'posts',
-    component: PostsComponent
+    loadChildren: () =>
+    import('./features/posts/posts.module').then(
+      (m) => m.PostsModule
+    ),
   },
   {
     path: 'comments',

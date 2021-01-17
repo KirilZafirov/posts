@@ -5,11 +5,13 @@ import { SharedModule } from 'src/app/shared/shared.module';
 import { PostComponent } from './post/post.component';
 import { PostCommentsComponent } from './post-comments/post-comments.component';
 import { PostCommentComponent } from './post-comment/post-comment.component';
+import { PostsRoutingModule } from './posts-routing.module';
 
 @NgModule({
   imports: [
     CommonModule,
-    SharedModule
+    SharedModule,
+    PostsRoutingModule
   ],
   declarations: [
     PostsComponent,
